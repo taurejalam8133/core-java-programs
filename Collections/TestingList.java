@@ -13,7 +13,7 @@ public class TestingList {
 		strList.add(0,"Md");
 		strList.remove(0);
 		strList.get(1);
-	//	strList.add(59);
+		strList.add(59);
 		
 		if(strList.contains("Alam")) {
 			System.out.println(strList.indexOf("Alam"));
@@ -22,12 +22,11 @@ public class TestingList {
 			System.out.println("not available");
 		}
 		
-//By using 	for loop 
 		for(int i=0; i<strList.size(); i++) {
 			System.out.println(strList.get(i));
 		}
 		
-//By using for each loop , we can use any one
+//By using for each loop, we can use any one
 //		for(String str : strList) {
 //			System.out.println(str);
 //		}
